@@ -1,0 +1,115 @@
+main {
+    margin-left: 250px;
+    padding-bottom: 95px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  .btn {
+    background: none;
+    display: inline-block;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 2px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.btn-large {
+    font-size: large;
+    padding: 10px 15px;
+    border-radius: 0;
+}
+
+.btn-blue {
+    border-color: #2196F3;
+    color: #2196F3;
+}
+
+.btn-blue:hover {
+    background: #0d8bf2;
+    color: #fff;
+}
+
+.btn-orange {
+    border-color: #f38021;
+    color: #f38021;
+}
+
+.btn-orange:hover {
+    background: #f38021;
+    color: #fff;
+}
+input, select {
+    padding: 5px 15px;
+    color: #444444;
+}
+.text-right {
+    text-align: right;
+}
+table {
+    width: 100%;
+    margin: 15px 0;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+tr, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input[type="text"], .form-group select {
+    width: 100%;
+}
+.answer {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.answer > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.answer > div input {
+    margin-right: 15px;
+}
+
+.answer button {
+    display: flex;
+    align-items: center;
+}
+
+.actions {
+    background: rgba(255,255,255, 0.8);
+    position: fixed;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+i {
+    padding-right: 10px;
+}

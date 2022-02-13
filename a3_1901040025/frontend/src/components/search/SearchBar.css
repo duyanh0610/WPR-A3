@@ -1,0 +1,8 @@
+ #search {
+    text-align: center;
+}
+
+#search input {
+    border-radius: 15px;
+    width: 35%;
+} 
